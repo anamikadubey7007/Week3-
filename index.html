@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Cafe - Interactive Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+    <h2>My Cafe</h2>
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+
+<section class="hero" id="home">
+    <h1>Welcome to My Cafe</h1>
+    <p>Fresh coffee, tasty snacks and a relaxing place for everyone.</p>
+    <button id="menuButton">View Menu</button>
+</section>
+
+<section class="about" id="about">
+    <h2>About Us</h2>
+    <p>My Cafe is a simple and friendly place where people can enjoy coffee, snacks and desserts with friends and family.</p>
+</section>
+
+<section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+        <div class="item"><h3>☕ Coffee</h3><p>Fresh hot coffee</p><b>₹80</b></div>
+        <div class="item"><h3>🥪 Sandwich</h3><p>Fresh vegetable sandwich</p><b>₹100</b></div>
+        <div class="item"><h3>🍰 Cake</h3><p>Soft chocolate cake</p><b>₹120</b></div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+</section>
+
+<footer><p>© 2026 My Cafe | Week 3 JavaScript Project</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
